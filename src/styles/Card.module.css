@@ -1,0 +1,48 @@
+.btn {
+    background-color: red;
+    margin: 5px;
+    border-radius: 5px;
+    align-self: flex-end;
+    width: 25px;
+    color: white;
+    
+    
+}
+
+.btn:hover{
+    color: red;
+    background-color: white;
+}
+
+.nombre{
+    font-weight: bold;
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.middleDiv{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-left: 15px;
+      
+}
+
+.card{
+    display: inline-flex;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid var(--borderCard-color);
+    border-radius: 5px;
+    height: 200px;
+    margin-top: 10px;
+
+    backdrop-filter: blur(8px);
+    background-color: #00000040;
+    
+} 
+

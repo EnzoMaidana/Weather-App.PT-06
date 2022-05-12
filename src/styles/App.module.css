@@ -1,0 +1,42 @@
+.app {
+  background-image: url("https://images.unsplash.com/photo-1537210249814-b9a10a161ae4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=felix-mittermeier-L4-16dmZ-1c-unsplash.jpg&w=2400");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  height: 4rem;
+  z-index: 1;
+  background-color: #ffffff00;
+  padding: 1rem;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  
+}
+
+.app {
+  height: 100%;
+  min-height: 100vh;
+}
+
+.allCities{
+    padding-top: 100px;
+    
+
+}
+
+.default{
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+
